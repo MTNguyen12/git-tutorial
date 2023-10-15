@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(190, 190, 190);
+}
+
+#header {
+  margin: 5px 10px;
+}
+
+.yes-button {
+  background-color: rgb(28, 255, 28);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1.5px;
+  border-radius: 60px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: opacity 0.015s;
+}
+
+.yes-button:active {
+  opacity: 0.6;
+}
+
+.no-button {
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1.5px;
+  border-radius: 60px;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: opacity 0.015s;
+}
+
+.no-button:active {
+  opacity: 0.6;
+}
